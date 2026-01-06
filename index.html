@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>FakeStoreAdminLogin</title>
+</head>
+<body>
+    
+    <main class="main">
+        <div class="main_left">
+            <h1 class="left_title">Welcome!</h1>
+
+            <form class="form">
+                <div class="inp">
+                <label class="label" for="name">Name</label>
+                <input type="text" name="name" required id="name" class="input" placeholder="Enter your name"></div>
+                <div class="inp"></div>
+
+                <div class="inp">
+                <label class="label" for="password">Password</label>
+                <input type="password" required name="password" id="password" class="input" placeholder="Enter password"></div>
+
+                <div class="terms"><input type="checkbox" required name="checkbox" id="checkbox"><label for="checkbox">I agree to the <a href="https://policies.google.com/terms?hl=en-US">terms & policy</a></label></div>
+
+                <button type="submit" class="btn">Sign up</button>
+            </form>
+
+                <div class="or">
+                    <hr class="or_hr">
+                    <p>or</p>
+                    <hr class="or_hr">
+                </div>
+
+                <div class="sign_in">
+                    <div class="sign_btn">
+                    <a href="https://www.google.com" class="signInWith"> 
+                        
+                        <svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><g fill="none" fill-rule="evenodd" clip-rule="evenodd"><path fill="#F44336" d="M7.209 1.061c.725-.081 1.154-.081 1.933 0a6.57 6.57 0 0 1 3.65 1.82a100 100 0 0 0-1.986 1.93q-1.876-1.59-4.188-.734q-1.696.78-2.362 2.528a78 78 0 0 1-2.148-1.658a.26.26 0 0 0-.16-.027q1.683-3.245 5.26-3.86" opacity=".987"/><path fill="#FFC107" d="M1.946 4.92q.085-.013.161.027a78 78 0 0 0 2.148 1.658A7.6 7.6 0 0 0 4.04 7.99q.037.678.215 1.331L2 11.116Q.527 8.038 1.946 4.92" opacity=".997"/><path fill="#448AFF" d="M12.685 13.29a26 26 0 0 0-2.202-1.74q1.15-.812 1.396-2.228H8.122V6.713q3.25-.027 6.497.055q.616 3.345-1.423 6.032a7 7 0 0 1-.51.49" opacity=".999"/><path fill="#43A047" d="M4.255 9.322q1.23 3.057 4.51 2.854a3.94 3.94 0 0 0 1.718-.626q1.148.812 2.202 1.74a6.62 6.62 0 0 1-4.027 1.684a6.4 6.4 0 0 1-1.02 0Q3.82 14.524 2 11.116z" opacity=".993"/></g></svg>
+
+                    Sign in with Google</a>
+                    <a href="https://www.apple.com" class="signInWith">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 368 432"><path fill="#000000" d="M353 146q-21 7-35 32.5T304 229q0 31 16 57.5t43 33.5q-8 27-26.5 55.5T299 418q-16 11-40 11q-16 0-37-8q-18-9-31-9q-10 0-40 12q-18 5-26 5q-24 0-49-20q-36-34-56-81T0 230q0-53 30.5-93.5T108 96q26 0 48 11q17 11 34 11q16 0 31-6q39-16 52-16q35 0 61 23q12 12 19 27zM179 99q0-32 25-63q25-27 61-33q0 38-24 67q-27 29-62 29z"/></svg>
+
+                         Sign in with Apple</a>
+                    </div>
+                </div>
+                
+        </div>
+
+        <div class="main_right"></div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    
+    <script src="./utils/index.js"></script>
+</body>
+</html>
